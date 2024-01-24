@@ -1,0 +1,29 @@
+.container{
+   width:  200px;
+   height: 200px;
+   background-color: #ff0000;
+   padding: 20px;
+}
+
+.container p{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.c1{background-color: #00ff00;}
+.c2{background-color: #11a111;}
+.c3{background-color: #376f37;}
+.c4{background-color: #294929;}
+
+.c1 p{ color: black;}
+
+/* 
+arkaplan-renk: renkler;
+renk: renkler;
+genişlik: değer;
+yükseklik: değer;
+font-boyutu: değer;
+metin-konumu: değerler; 
+iç-boşluk: değer;
+*/

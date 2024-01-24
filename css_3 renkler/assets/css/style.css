@@ -1,0 +1,14 @@
+section{background-color: black; color: white;}
+
+.renk_normal{
+    color: yellowgreen;
+    background-color:dimgray;
+}
+
+.renk_rgb{
+    color: rgba(0, 255, 255, 0.6);
+}
+
+.renk_kodla{
+    color: #FF9800;
+}

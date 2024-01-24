@@ -1,0 +1,25 @@
+p{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 40px;
+
+    text-align: justify;
+
+}
+
+span{ 
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-transform: none;
+
+}
+
+a{ 
+    font-size: 30px;
+    text-decoration:none;
+}

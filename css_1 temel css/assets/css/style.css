@@ -1,0 +1,7 @@
+.ext{ 
+    color: white; 
+    background-color: blue;
+}
+
+/* burası important */
+p{color: white !important;}

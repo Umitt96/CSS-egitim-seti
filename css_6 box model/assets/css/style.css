@@ -1,0 +1,19 @@
+.box-model{
+    font-size: 40px;
+    background-color: red;
+    text-align: center;
+    padding: 30px;
+    margin:  30px;
+    border:  20px solid;
+}
+
+
+.pad-example{
+    background-color: aqua;
+    font-size: 40px;
+    padding: 10px 15px 20px 25px;
+    margin: 10px 15px 20px 25px;
+    border: none;
+    border-left: 20px solid black;
+}
+

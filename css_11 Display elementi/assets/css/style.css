@@ -1,0 +1,59 @@
+html {
+    font-family: helvetica, arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    background-color: #392467;
+    color:#FFD1E3;
+  }
+  
+
+  hr{ border: 3px solid #A367B1;}
+  article { background-color: #5D3587;}
+  
+  article span {
+    background-color: #A367B1;
+    color: #FFD1E3;
+    margin: 8px;
+  }
+  
+  article,
+  span {
+    padding: 10px;
+    border-radius: 7px;
+  }
+  
+  article,
+  div {
+    margin: 20px;
+  }
+  
+
+  select {
+    font-size: 20px;
+    background: transparent;
+    color: #FFD1E3;
+    border: 1px solid #FFD1E3;
+}
+
+option{
+    background-color: #FFD1E3;
+    color: #392467;   
+}
+
+.box{
+    background-color: #A367B1;
+    height: 200px;
+    width:  200px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    background-color: #392467;
+    color: #A367B1;
+    border-radius: 20px;
+    padding: 10px;
+}

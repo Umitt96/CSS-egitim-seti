@@ -1,0 +1,19 @@
+*{color: beige; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+body{background-color: gray;}
+p{color: red;}
+
+
+/* section start */
+section{ background-color: red;}
+section div{background-color: brown; margin: 20px;}
+section div p{color: black;}
+/* section end*/
+
+
+/* sınıf id örnek start */
+
+.sinif{ background-color: black;}
+#id_secici{ background-color: aquamarine;}
+
+/* sınıf id örnek end */
