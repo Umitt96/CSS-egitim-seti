@@ -1,0 +1,28 @@
+body { background-color: #222;}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,140px);
+    justify-content: center;
+    text-align: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.item{
+    background-color: #555;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 35px;
+    color: white;
+    transition: .4s ease-out;
+}
+
+.i1{ color: rgb(222, 129, 7);}
+.i2{ color: rgb(97, 255, 255);}
+.i3{ color: rgb(109, 214, 52);}
+.i4{ color: rgb(243, 255, 11);}
+.s2{ color: rgb(4, 255, 0);}
+.s1, .s3, .s4{ color: rgba(51, 255, 0, 0.3);}
+
+.i1:hover, .i2:hover, .i3:hover, .i4:hover{ background-color: #777; }

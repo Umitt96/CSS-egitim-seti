@@ -1,0 +1,61 @@
+:root{
+    --fontumuz-m: 50px;
+    --fontumuz-s: 25px;
+    --renk: black;
+    --renk-2: white;
+    --hizala: center;
+}
+
+
+.container{
+    display: flex;
+}
+
+.left, .right{ padding: 30px; padding-top: 0; margin: 15px; border: 3px dashed  black;}
+
+
+.deneme{ 
+    background-color: var(--renk);
+    color: var(--renk-2);
+    font-size: var(--fontumuz-m);
+    text-align: var(--hizala);
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+input:required{ border: 2px solid red;}
+input:focus{background-color: antiquewhite; box-shadow: 0 0 5px 5px; outline: none;}
+
+button{
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+}
+
+button:hover{ background-color: red;}
+button:active{ background-color: rgb(0, 255, 81); color: black;}
+
+
+table{ width: 550px;}
+
+tr td, tr th{ 
+    border: 1px solid #777;
+    padding: 4px;
+    text-align: left;
+
+}
+
+tr:nth-child(2n-1){ background-color: green; color: white;}
+
+.left p{ font-size: var(--fontumuz-s);}
+.left p::after{
+    content: 'Ne güzel değil mi?';
+    background-color: rgb(213, 213, 213);
+}
+
+.left p::before{
+    content: 'Şöyle yazmamız gerekiyordu; ';
+    background-color: aqua;
+}
