@@ -1,0 +1,69 @@
+body{background-color: black;}
+
+.container{
+    width: auto;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.left, .rigth{ 
+    padding: 50px; 
+    background-color: #444;
+    width: 250px;
+}
+
+.anim-header{
+    background-color: #A5D7E8;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+}
+
+.box{
+    margin: 10px;
+    width:  70px;
+    height: 70px;
+    background-color:#A5D7E8;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+
+    text-align: center;
+    justify-content: center;
+    transition: .5s all ease-in-out;
+}
+
+.box:hover{
+    background-color: #576CBC;
+}
+
+.a1:hover{  transform: translateX(10px);}
+.a2:hover{  transform: translateY(10px);}
+.a3:hover{  transform: translateZ(10px);}
+.a4:hover{  transform: translate(10px,10px);}
+
+
+.b1:hover{  transform: scaleX(1.3)}
+.b2:hover{  transform: scaleY(1.3)}
+.b3:hover{  transform: scaleZ(1.3)}
+.b4:hover{  transform: scale(1.2, 1.2)}
+
+.c1:hover{  transform:rotateX(45deg);}
+.c2:hover{  transform:rotateY(45deg);}
+.c3:hover{  transform:rotateZ(45deg);}
+.c4:hover{  transform:rotate(90deg);}
+
+
+.d1:hover{  transform: skewX(45deg)}
+.d2:hover{  transform: skewY(45deg)}
+.d3:hover{  transform: skew(45deg)}
