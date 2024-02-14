@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .menu {
+    float: left;
+    width: 20%;
+  }
+  .menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+
+  
+  .main img{
+    width: 100%;
+}
+
+  .right {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+  }
+  
+  footer{
+    background-color:#f1f1f1;
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+    font-size:12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsive design */
+   
+  @media only screen  and (min-width: 1600px) {
+    .main img{
+      padding: 50px 0;
+      width: 70%;
+    }
+} 
+
+  @media only screen  and (min-width: 700px) and (max-width:830px) {
+    /* For Tablet */
+    .main{
+      width: 80%;
+      padding: 0;
+    }
+
+    .right{
+      width: 100%;
+    }
+}
+
+
+  @media only screen and (max-width:400px) {
+    /* For mobile phones */
+    .menu, .main, .right{
+      width: 100%;
+    }
+
+    .menu{
+      text-align: center;
+    }
+  }
